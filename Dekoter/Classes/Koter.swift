@@ -81,7 +81,7 @@ public class Koter {
     /// - Parameters:
     ///   - object: The array of objects which implement the `Koting` protocol.
     ///   - key: The string key.
-    public func enkotObject(_ object: [Koting]?, forKey key: AnyHashable) {
+    public func enkotObjects(_ object: [Koting]?, forKey key: AnyHashable) {
         guard let object = object else {
             return
         }
